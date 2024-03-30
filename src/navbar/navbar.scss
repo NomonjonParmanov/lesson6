@@ -1,0 +1,29 @@
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  button {
+    width: 173px;
+    height: 52px;
+    border-radius: 31px;
+    border: none;
+    line-height: 17.04px;
+    font-size: 16px;
+    color: #f58a07;
+    background-color: #f58a071a;
+    cursor: pointer;
+  }
+}
+.nav__item {
+  color: #394149;
+  font-size: 16px;
+  line-height: 24px;
+}

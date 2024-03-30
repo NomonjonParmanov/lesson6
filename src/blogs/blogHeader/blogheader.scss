@@ -1,0 +1,44 @@
+.bloghome {
+  background-color: #dceaf5;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  .left {
+    h1 {
+      color: #1d3444;
+      font-size: 64px;
+      width: 527px;
+      margin-top: -5px;
+    }
+    .p {
+      color: #5b5b5b;
+      width: 509px;
+      font-size: 18px;
+      margin-top: -10px;
+    }
+    a {
+      color: #f58a07;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .bloghome {
+    grid-template-columns: auto;
+    .left {
+      margin: 0 auto;
+    }
+    .right {
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
